@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Test_Documentation.shfbproj" started="1/15/2025 7:12:27 PM">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.8&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2024.12.21.0
+Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\ASE Assignment\ASE_AssignmentUnitTest\bin\Debug\net8.0-windows\ASE_AssignmentUnitTest.dll
+    Found assembly &#39;C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\ASE Assignment\ASE_AssignmentUnitTest\bin\Debug\net8.0-windows\ASE_AssignmentUnitTest.dll&#39;
+Source: C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\ASE Assignment\ASE_AssignmentUnitTest\bin\Debug\net8.0-windows\ASE_AssignmentUnitTest.xml
+
+Copying XML comments files
+    C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\ASE Assignment\ASE_AssignmentUnitTest\bin\Debug\net8.0-windows\ASE_AssignmentUnitTest.xml -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\ASE_AssignmentUnitTest.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0616
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.1677
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-20854962-a184-4036-8161-0bb4f1272e3b.proj]
+Build started 1/15/2025 7:12:36 PM.
+
+Project &quot;C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\GenerateRefInfo-20854962-a184-4036-8161-0bb4f1272e3b.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.11.9+a69bbaaf5f8d7249b8cab7309e81ad2221ce396c)
+  c Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 6 types, and 41 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\GenerateRefInfo-20854962-a184-4036-8161-0bb4f1272e3b.proj&quot; (default targets).
+    Last step completed in 00:00:14.8004
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.4593
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00.1576
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00.1141
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0625
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0108
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.0656
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:02.2945
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0222
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.4012
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:ASE_AssignmentUnitTest] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ASE_AssignmentUnitTest.AppCanvasTests] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.DrawCircle_InvalidRadius_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.DrawCircle_OutOfBounds_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.DrawRectangle_InvalidDimensions_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.DrawTo_InvalidPosition_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.DrawTo_OutOfBounds_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.DrawTriangle_InavlidDimensions_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.MoveTo_InvalidPosition_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.MoveTo_OutOfBounds_ThrowsException] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:ASE_AssignmentUnitTest.AppCanvasTests.AppCommandFactoryTests.TestMakeCommand] Missing &lt;summary&gt; documentation
+Processed 54 topic(s)
+11 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 1 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+SaveComponent: Waiting for the document writer task to finish (7 Website API file(s) remaining)...
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:29.7579
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\aastha\source\repos\77356810_AasthaRaut_ASE_Assignment\Documentation\Help\tests\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00.5548
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:01.2766
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 121 files for the website content
+    Last step completed in 00:00:00.4756
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0480
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 1/15/2025 7:13:22 PM.  Total time: 00:00:55.5562
+
+</buildStep>
+</shfbBuild>
